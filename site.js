@@ -7,7 +7,7 @@ $( document ).ready(function() {
     console.log( "Data Loaded: " + data );
   });
 
-  $.getJSON( "test.html", function( json ) {
+  $.getJSON( "index.html", function( json ) {
     console.log( "JSON Data: " + json.users[ 3 ].name );
    });
 
