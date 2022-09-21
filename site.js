@@ -5,7 +5,7 @@ $( document ).ready(function() {
       url: 'https://clinquant-khapse-98c558.netlify.app/index.html',
       type: 'post',
       data: {
-          access_token: 'XXXXXXXXXXXXXXXXXXX'
+          name: 'John Doe'
       },
       headers: {
         "Access-Control-Allow-Origin" : '*'
