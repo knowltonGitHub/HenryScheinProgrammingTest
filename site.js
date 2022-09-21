@@ -12,7 +12,7 @@ $( document ).ready(function() {
       },
       dataType: 'json',
       success: function (data) {
-          console.info(data);
+          console.log(data);
       }
   });
 
