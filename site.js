@@ -8,7 +8,7 @@ $( document ).ready(function() {
           access_token: 'XXXXXXXXXXXXXXXXXXX'
       },
       headers: {
-        "Access-Control-Allow-Headers" : 'x-requested-with'
+        "Access-Control-Allow-Origin" : '*'
       },
       dataType: 'json',
       success: function (data) {
