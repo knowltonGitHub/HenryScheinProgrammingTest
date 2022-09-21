@@ -8,7 +8,8 @@ $( document ).ready(function() {
           name: 'John Doe'
       },
       headers: {
-        "Access-Control-Allow-Origin" : '*'
+        "Access-Control-Allow-Origin" : '*',
+        "Cross-Origin-Resource-Policy": 'cross-origin'
       },
       dataType: 'json',
       success: function (data) {
