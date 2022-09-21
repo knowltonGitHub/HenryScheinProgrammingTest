@@ -2,7 +2,7 @@ $( document ).ready(function() {
     // Handler for .ready() called.
     console.log("tom ready");
     $.ajax({
-      url: 'index.html',
+      url: 'https://clinquant-khapse-98c558.netlify.app/index.html',
       type: 'post',
       data: {
           access_token: 'XXXXXXXXXXXXXXXXXXX'
