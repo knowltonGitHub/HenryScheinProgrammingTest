@@ -2,7 +2,7 @@ $( document ).ready(function() {
     // Handler for .ready() called.
     console.log("tom ready");
     $.ajax({
-      url: 'test.html',
+      url: 'index.html',
       type: 'post',
       data: {
           access_token: 'XXXXXXXXXXXXXXXXXXX'
