@@ -1,14 +1,19 @@
 $( document ).ready(function() {
     // Handler for .ready() called.
     console.log("tom ready");
-
-    $.post( " https://cors.io/?index.html", { name: "John", time: "2pm" })
-  .done(function( data ) {
-    console.log( "Data Loaded: " + data );
+    $.ajax({
+      url: 'test.html',
+      type: 'post',
+      data: {
+          access_token: 'XXXXXXXXXXXXXXXXXXX'
+      },
+      headers: {
+        "Access-Control-Allow-Headers" : 'x-requested-with'
+      },
+      dataType: 'json',
+      success: function (data) {
+          console.info(data);
+      }
   });
-
-  $.getJSON( "index.html", function( json ) {
-    console.log( "JSON Data: " + json.users[ 3 ].name );
-   });
 
   });
