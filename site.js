@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     // Handler for .ready() called.
-    console.log("tom ready");
+    console.log("tom is ready");
     $.ajax({
       url: 'https://clinquant-khapse-98c558.netlify.app/index.html',
       type: 'post',
